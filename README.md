@@ -31,16 +31,24 @@ Deployment target: **macOS 14+** (SwiftData).
     └── Persistence.swift              # shared ModelContainer
 ```
 
-## Xcode setup
+# Installation:
+There are two ways to install tXt
 
-1. Create a new **macOS App** project (SwiftUI lifecycle) named `.tXt` with
-   **macOS 14.0** or later as the deployment target.
-2. Add all the Swift files above to the app target.
-3. Point the target's **Info.plist** at the included `Info.plist`, or add these
-   keys to the generated one:
-   - `Application is agent (UIElement)` = `YES` (`LSUIElement = true`)
-   - `CFBundleDisplayName` = `.tXt`
-4. Embed no storyboard; the `MenuBarExtra` is the only UI entry point.
+## 1. Xcode setup
+1. Download all the files as a zip (Using the green '<> Code' button)
+2. Unzip the files
+3. Create a Xcode project, name it 'tXt', and delete all the files already in the project
+4. Create a new target and name it 'tXt'
+5. Remove any old targets
+6. To that target, add all the files from the .zip
+7. Click 'Product' in the menu bar, then click 'Archive'
+8. Click 'Distribute App', then choose 'Custom'
+9. Select 'Copy App' and copy it to Applications under the name 'tXt' (not .tXt, because macOS hides files that begin with '.')
+
+## 2. Simple Download
+1. Go to the **LATEST** release page, and download the .zip file from there
+2. Unzip it to find the .app file
+3. Move the .app file to your Applications folder
 
 ## Permissions
 
