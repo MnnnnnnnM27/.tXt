@@ -45,6 +45,8 @@ There are two ways to install tXt
 8. Click 'Distribute App', then choose 'Custom'
 9. Select 'Copy App' and copy it to Applications under the name 'tXt' (not .tXt, because macOS hides files that begin with '.')
 
+***Note That Currently, This Option Uses Old Code, And tXt Will Not Run Properly. To Use tXt, Use The Following Steps To Simply Download The App***
+
 ## 2. Simple Download
 1. Go to the **LATEST** release page, and download the .zip file from there
 2. Unzip it to find the .app file
